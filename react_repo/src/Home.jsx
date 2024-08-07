@@ -36,7 +36,7 @@ const Home = () => {
             return (
               <>
                 <p> Id: {item.id}</p>
-                <p>Title: {item.title}</p>
+                <p>Title:- {item.title}</p>
               </>
             );
           })}
