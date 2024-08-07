@@ -4,7 +4,8 @@ const Home = () => {
   const [data, setData] = useState();
   const [error, setError] = useState();
   const apiUrl = process.env.REACT_APP_API_URL;
-
+  console.log("proces.env.REACT_APP_API_URL", process.env.REACT_APP_API_URL);
+  console.log("proces.env.API_URL", process.env.AsPI_URL);
   useEffect(() => {
     if (!apiUrl) {
       console.error("API URL is not defined in environment variables.");
