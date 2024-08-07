@@ -4,7 +4,6 @@ const Home = () => {
   const [data, setData] = useState();
   const [error, setError] = useState();
   const apiUrl = process.env.REACT_APP_API_URL;
-  //   const apiUrl = "https://jsonplaceholder.typicode.com/posts/1";
 
   useEffect(() => {
     if (!apiUrl) {
